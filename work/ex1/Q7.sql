@@ -1,1 +1,2 @@
-SELECT * FROM actor WHERE first_name IN("Angela "," Angelina "," Audrey");
+SELECT * FROM actor
+WHERE first_name IN ('Angela', 'Angelina', 'Audrey');
